@@ -1,0 +1,39 @@
+# ====================================
+# Butterfly 主题基础精简配置
+# ====================================
+
+# 导航菜单 (Key: 链接 || 图标)
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-heart
+
+# 社交图标 (在头像下面显示的)
+social:
+  Github: https://github.com/symidola || fab fa-github
+  Email: mailto:symidola@163.com || fas fa-envelope
+
+# 头像设置
+avatar:
+  img: /img/avatar.jpg # 这里以后换成你自己的图片链接
+  effect: false # 头像旋转效果
+
+# 网站副标题打字机效果
+subtitle:
+  enable: true
+  effect: true # 开启打字机特效
+  loop: true   # 循环播放
+
+# 图片懒加载 (提升速度)
+lazyload:
+  enable: true
+  field: site
+  placeholder: https://unpkg.com/hexo-theme-butterfly/source/img/loading.gif
+
+# 底部版权
+footer:
+  owner:
+    enable: true
+    since: 2024
+  copyright: true
